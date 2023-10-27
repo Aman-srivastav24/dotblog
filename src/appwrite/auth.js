@@ -36,6 +36,7 @@ export class AuthService{
         }catch(error){
             console.log("Appwrite Error",error);
         }
+        return null;
     }
     async logout(){
         try {
